@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="page-top" class="index">
+
+    
+
+    {% include header.html %}
+
+    <section id="three-boxes" style="display: flex; justify-content: space-around; gap: 20px; padding: 50px;">
+      <div class="box" style="
+        background-color: green;
+        background-image: url('/img/restauration.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: white;
+      ">
+        <h2>Restauration Activity</h2>
+        <p>Using the best materials around.</p>
+        <a href="#" style="
+          display: inline-block;
+          padding: 10px 20px;
+          background: white;
+          color: black;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+        ">Discover Materials</a>
+      </div>
+
+      <div class="box" style="
+        background-color: blue;
+        background-image: url('/img/it-consulting.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: white;
+      ">
+        <h2>IT Consulting Activity</h2>
+        <p>High-quality & 3D printed.</p>
+        <a href="#" style="
+          display: inline-block;
+          padding: 10px 20px;
+          background: white;
+          color: black;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+        ">View Our Projects</a>
+      </div>
+
+      <div class="box" style="
+        background-color: black;
+        background-image: url('/img/sustainable-houses.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: white;
+      ">
+        <h2>Sustainable Houses</h2>
+        <p>Take a closer look at our homes.</p>
+        <a href="#" style="
+          display: inline-block;
+          padding: 10px 20px;
+          background: white;
+          color: black;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+        ">Take a Tour</a>
+      </div>
+    </section>
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+  </body>
+</html>
